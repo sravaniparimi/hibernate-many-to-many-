@@ -1,0 +1,76 @@
+STUDENT
+
+package com.ex;
+
+import java.util.Set;
+
+public class Student {
+	private int sid;
+	private String sname;
+	private int marks;
+	private Set c_obj;
+	public int getSid() {
+		return sid;
+	}
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	public Set getC_obj() {
+		return c_obj;
+	}
+	public void setC_obj(Set c_obj) {
+		this.c_obj = c_obj;
+	}
+	
+}
+
+
+COURSE
+
+package com.ex;
+
+import java.util.Set;
+
+public class Course {
+	private int cid;
+	private String cname;
+	private int price;
+	private Set s_obj;
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	public String getCname() {
+		return cname;
+	}
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public Set getS_obj() {
+		return s_obj;
+	}
+	public void setS_obj(Set s_obj) {
+		this.s_obj = s_obj;
+	}
+
+}
